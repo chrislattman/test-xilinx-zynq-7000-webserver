@@ -1,0 +1,34 @@
+# Vitis build outputs & exported platform packages
+/build
+/export
+build_configs/
+!_ide/
+_ide/*
+!_ide/settings.json
+!_ide/launch.json
+.rigel_lopper/
+.vitisWorkspace.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.so
+*.d
+*.elf
+*.elf.size
+*.bin
+*.pdi
+
+# Logs and lock files
+/logs
+*.log
+.lock
+
+# Language server & IDE metadata
+.cache/
+.clangd
+.compile_commands
+compile_commands.json
+.hash-map.txt
+.buildstatus

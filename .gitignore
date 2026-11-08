@@ -1,0 +1,108 @@
+# ==============================================================================
+# Xilinx Zynq-7000 HW/SW Co-Design - Master GitIgnore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Vivado FPGA Hardware Design
+# ------------------------------------------------------------------------------
+# Vivado auto-generated project directories
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+hd_visual/
+
+# Vivado logs, journals, and status reports
+*.log
+*.jou
+*.str
+*.pb
+*.vds
+*.rpt
+vivado*.log
+vivado*.jou
+
+# Design Checkpoints, Bitstreams, and Hardware Export Archives
+*.dcp
+*.bit
+*.bin
+*.mcs
+*.pdi
+*.ltx
+*.xsa
+*.hdf
+*.sysdef
+
+# XSim simulation databases
+*.wdb
+
+# WebTalk telemetry logs
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+webtalk.log
+webtalk.jou
+
+# ------------------------------------------------------------------------------
+# 2. Vitis Unified IDE & Embedded C/C++ Software
+# ------------------------------------------------------------------------------
+# Vitis build outputs and exported platform packages
+build/
+build_configs/
+export/
+!_ide/
+_ide/*
+!_ide/settings.json
+!_ide/launch.json
+.rigel_lopper/
+.vitisWorkspace.json
+
+# C/C++ object files, static libraries, and compiled ELF binaries
+*.o
+*.obj
+*.a
+*.so
+*.d
+*.elf
+*.elf.size
+
+# Vitis IDE metadata, Clangd LSP indexes, and build state logs
+.cache/
+.clangd
+.compile_commands
+compile_commands.json
+.hash-map.txt
+.buildstatus
+.lock
+logs/
+
+# ------------------------------------------------------------------------------
+# 3. Vitis HLS / Vivado HLS (High-Level Synthesis)
+# ------------------------------------------------------------------------------
+*_prj/
+hls_prj/
+vitis_hls.log
+vivado_hls.log
+
+# ------------------------------------------------------------------------------
+# 4. PetaLinux & Yocto (Embedded Linux Co-Design)
+# ------------------------------------------------------------------------------
+images/
+components/
+peta_tmp/
+.petalinux/
+
+# ------------------------------------------------------------------------------
+# 5. OS & Editor Temporary Files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp
+.vscode/*
+!.vscode/settings.json
+.idea/

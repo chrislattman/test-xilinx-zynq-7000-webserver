@@ -1,0 +1,49 @@
+# Vivado Project Generated Files & Folders
+*.cache/
+*.gen/
+!fpga.gen/
+fpga.gen/*
+!fpga.gen/sources_1/
+fpga.gen/sources_1/*
+!fpga.gen/sources_1/bd/
+fpga.gen/sources_1/bd/*
+!fpga.gen/sources_1/bd/artyz7/
+fpga.gen/sources_1/bd/artyz7/*
+!fpga.gen/sources_1/bd/artyz7/hdl/
+fpga.gen/sources_1/bd/artyz7/hdl/*
+!fpga.gen/sources_1/bd/artyz7/hdl/artyz7_wrapper.v
+!fpga.gen/sources_1/bd/artyz7/synth/
+fpga.gen/sources_1/bd/artyz7/synth/*
+!fpga.gen/sources_1/bd/artyz7/synth/artyz7.v
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+hd_visual/
+
+# Logs and Journals
+*.log
+*.jou
+*.str
+*.pb
+*.vds
+*.rpt
+
+# Checkpoints, Bitstreams, and Hardware Handover Platform Files
+*.dcp
+*.bit
+*.bin
+*.mcs
+*.pdi
+*.ltx
+*.xsa
+*.hdf
+*.sysdef
+
+# Simulation Waveforms
+*.wdb
+
+# WebTalk
+usage_statistics_webtalk.*
+webtalk.*
