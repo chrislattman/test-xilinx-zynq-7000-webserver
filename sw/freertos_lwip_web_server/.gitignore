@@ -1,5 +1,6 @@
 # Vitis build outputs & exported platform packages
 /build
+build_configs/
 /export
 !_ide/
 _ide/*

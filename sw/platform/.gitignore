@@ -1,7 +1,7 @@
 # Vitis build outputs & exported platform packages
 /build
-/export
 build_configs/
+/export
 !_ide/
 _ide/*
 !_ide/settings.json
@@ -32,3 +32,6 @@ _ide/*
 compile_commands.json
 .hash-map.txt
 .buildstatus
+# BSP headers, regenerated into include/ on every BSP build (libsrc/ headers are sources and stay tracked)
+**/*bsp/include/*.h
+!**/*bsp/include/xparameters.h
